@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\ygorr\source\repos\RateMyAnimal\src\API\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2023-03-02T09:41:19.8822383Z;True|2023-03-02T10:41:00.4947685+01:00;True|2023-03-02T10:39:03.5638648+01:00;True|2023-03-02T10:13:14.3322221+01:00;True|2023-03-02T09:58:34.1851094+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

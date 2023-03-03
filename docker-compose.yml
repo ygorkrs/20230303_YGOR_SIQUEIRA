@@ -1,0 +1,35 @@
+version: '3.7'
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: sql_server_container
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: _StrongPassword_
+    ports:
+      - "1433:1433"
+    networks:
+      - my-network
+      
+  api:
+    build:
+        context: Backend
+    ports:
+      -  5000:5000
+    networks:
+      - my-network
+    depends_on:
+      - sql_server
+    
+  frontend:
+    build:
+      context: FrontEnd
+    ports:
+      - 3000:3000
+    networks:
+      - my-network
+    depends_on:
+      - api
+
+networks:
+  my-network:

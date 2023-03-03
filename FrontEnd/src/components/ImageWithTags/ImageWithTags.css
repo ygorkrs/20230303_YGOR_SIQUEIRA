@@ -1,0 +1,25 @@
+.container-history {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.image {
+  width: 128px;
+  height: 128px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tag-old {
+  cursor: auto;
+}

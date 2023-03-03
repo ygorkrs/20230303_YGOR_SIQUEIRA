@@ -1,0 +1,28 @@
+.ImageList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh;
+  max-height: 92vh;
+}
+
+input[type="text"] {
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.ImageList-images {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1vh;
+  overflow-y: auto;
+  max-height: 75vh;
+}
+
+.container-full {
+  max-height: 75vh;
+}
